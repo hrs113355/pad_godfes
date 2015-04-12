@@ -1,9 +1,9 @@
 addMonster = function(id){
-    $.ajax("lib/monster.php?id="+id,
+    $.ajax("monster.php?id="+id,
 	{
 	    type: 'GET',
 	    success: function(d){
-		$('#list').append("<li>" + d + "</li>")
+		$('#list').append("<li class='list-group-item'>" + d + "</li>")
 	    }
 	});
 }
