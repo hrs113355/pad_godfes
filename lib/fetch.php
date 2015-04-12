@@ -1,4 +1,6 @@
 <?php
+require_once 'config.php';
+
 function get_data($id){
   return if ! is_numeric($id);
 
