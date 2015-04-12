@@ -1,1 +1,8 @@
-#main { padding: 20px 20px 20px 20px }
+#main { padding: 20px 20px 20px 20px; }
+#list { 
+    padding: 0;
+    width: 350px;
+}
+#list_container {
+    padding-top: 20px;
+}
